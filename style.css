@@ -110,3 +110,77 @@ header .banner .text-content {
     right: 0;
     top: 20%;
 }
+
+.client-section {
+    width: 100%;
+}
+
+.client-section .our-client {
+    width: 85%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.client-section .our-client .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.client-section .our-client p {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.client-section .our-client .clients-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.community-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.community-section .community {
+    width: 85%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.community-section .community .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.community-section .community p {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+
+.community-section .community .frames {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.community .frames .frame {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
