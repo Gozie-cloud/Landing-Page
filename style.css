@@ -10,7 +10,7 @@
 header {
     height: 100vh;
     width: 100%;
-    background: #E0E0E0;
+    background: #F5F7FA;
 
 }
 
@@ -59,7 +59,7 @@ header .navbar .buttons {
     border-radius: 5px;
     border: none;
     font-weight: 600;
-    background: #E0E0E0;
+    background: #F5F7FA;
     color: #4CAF4F;
 }
 
@@ -111,6 +111,8 @@ header .banner .text-content {
     top: 20%;
 }
 
+/* Clients Section */
+
 .client-section {
     width: 100%;
 }
@@ -141,6 +143,8 @@ header .banner .text-content {
     justify-content: space-between;
     padding: 20px 0;
 }
+
+/* Community Section */
 
 .community-section {
     width: 100%;
@@ -177,6 +181,8 @@ header .banner .text-content {
 }
 
 .community .frames .frame {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -184,3 +190,142 @@ header .banner .text-content {
     width: 250px;
     padding: 20px;
 }
+
+.community .frames .frame div {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* Unlock Section */
+
+.unlock-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.unlock-section .unlock {
+    width: 85%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+}
+
+.unlock-section .unlock .frame{
+    width: 550px;
+    margin-left: 20px;
+}
+
+.unlock-section .unlock .big-text {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.unlock-section .unlock p {
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.unlock-section .unlock button {
+    padding: 13px 30px;
+    background-color: #4CAF4F;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+
+/* Achievements Section */
+
+.achievements-section {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #F5F7FA;
+}
+
+.achievements-section .achievements {
+    width: 85%;
+    margin: 25px auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.achievements .counts {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.achievements .text-content {
+    width: 50%;
+}
+
+.achievements .text-content .big-text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.achievements .text-content .green-text {
+    color: #4CAF4F;
+}
+
+.achievements .text-content p {
+    font-size: 14px;
+}
+
+.achievements .counts .frame {
+    display: flex;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.achievements .counts .frame .text {
+    padding-left: 20px;
+}
+
+.counts .frame .text .numbers {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.counts .frame .text p {
+    font-size: 15px;
+}
+
+/* Calendar Section */
+.calendar-section {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.calendar-section .calendar {
+    width: 85%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+}
+
+.calendar-section .calendar .frame{
+    width: 550px;
+    margin-left: 20px;
+}
+
+.calendar-section .calendar .big-text {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.calendar-section .calendar p {
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.calendar-section .calendar button {
+    padding: 13px 30px;
+    background-color: #4CAF4F;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
